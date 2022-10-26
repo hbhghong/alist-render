@@ -12,25 +12,25 @@ services:
         value: 5244
       - key: DB_TYPE
         value: mysql
-        sync: false
+        sync: true
       - key: DB_HOST
         value: db4free.net
-        sync: false
+        sync: true
       - key: DB_PORT
         value: 3306
-        sync: false
+        sync: true
       - key: DB_USER
         value: hd_alist
-        sync: false
+        sync: true
       - key: DB_PASS
         value: hd1991118
-        sync: false
+        sync: true
       - key: DB_NAME
         value: hd_alist
-        sync: false
+        sync: true
       - key: DB_TABLE_PREFIX
         value: alist_
-        sync: false
+        sync: true
       - key: CDN
         value: https://npm.elemecdn.com/alist-web@$version/dist
-        sync: false
+        sync: true
